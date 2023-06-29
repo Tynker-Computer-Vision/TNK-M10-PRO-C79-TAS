@@ -135,7 +135,7 @@ def eval_fitness(generation, config):
           forward = True
           change = 0
           
-          # SA1:- Call getSensorData(player, angle)
+          # Call getSensorData(player, angle)
           getSensorsData(player, angle)          
           
           output = net.activate((player.x, player.y))
